@@ -107,7 +107,7 @@ public class MovieFragment extends Fragment {
                 final String MOVIE_DB_BASE_URL = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc";
                 String APPID_PARAM = "api_key";
 
-                String api_key = "ee7a555268688da2f374d97ceca7faa6";
+                String api_key = "INSERTI_YOUR_API_KEY_HERE";
 
                 Uri builtUri = Uri.parse(MOVIE_DB_BASE_URL).buildUpon()
                         .appendQueryParameter(APPID_PARAM, api_key)
